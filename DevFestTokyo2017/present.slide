@@ -1,0 +1,33 @@
+DevFestTokyo2017 keynote
+Women Who Go Tokyo
+9 Oct 2017
+Tags: Go, womenwhogo, wwg_tokyo, devfest_jp
+
+白川 みちる
+@micchiebear
+https://github.com/mi-bear/
+
+渡辺 もも
+@mom0tomo
+https://github.com/mom0tomo
+
+* はじめに
+
+
+* はじめに
+*アジェンダ*
+
+- はじめてのプログラミングの勉強でGoを採用するということ
+- やってみた、からプロダクトに導入するまで
+- 今後Goでやりたいこと
+	- 静的解析
+	- Goで新卒向け教材
+
+* はじめに
+.image image/gopher1.png 330 334
+
+* はじめに
+.code example/sample1.go
+
+* はじめに
+.play example/sample1.go
