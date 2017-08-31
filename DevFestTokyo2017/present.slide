@@ -9,13 +9,27 @@ https://github.com/mi-bear/
 
 渡辺 もも
 @mom0tomo
-https://github.com/mom0tomo
-
-* はじめに
+https://github.com/mom0tomo/
 
 
 * はじめに
-*アジェンダ*
+
+
+* Who?
+*micchie*
+
+- ディップ株式会社 雑用
+- 脳筋戦士
+.image image/micchie.png 100 _
+
+*mom0tomo*
+
+- ディップ株式会社 エンジニア
+- 村人 -> 修行僧 -> 武闘家
+.image image/mom0tomo.png 100 _
+
+
+* アジェンダ
 
 - はじめてのプログラミングの勉強でGoを採用するということ
 - やってみた、からプロダクトに導入するまで
@@ -23,11 +37,10 @@ https://github.com/mom0tomo
 	- 静的解析
 	- Goで新卒向け教材
 
-* はじめに
-.image image/gopher1.png 330 334
 
 * はじめに
 .code example/sample1.go
+
 
 * はじめに
 .play example/sample1.go
