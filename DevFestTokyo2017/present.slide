@@ -33,3 +33,6 @@ https://github.com/mom0tomo/
 
 * はじめに
 .play example/sample1.go
+
+* Thank you
+.html example/thanks.html
