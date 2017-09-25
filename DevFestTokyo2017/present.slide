@@ -16,18 +16,7 @@ https://github.com/mom0tomo/
 
 
 * Who?
-*micchie*
-
-- ディップ株式会社 雑用
-- 脳筋戦士
-.image image/micchie.png 100 _
-
-*mom0tomo*
-
-- ディップ株式会社 エンジニア
-- 村人 -> 修行僧 -> 武闘家
-.image image/mom0tomo.png 100 _
-
+.html example/profile.html
 
 * アジェンダ
 
@@ -44,3 +33,6 @@ https://github.com/mom0tomo/
 
 * はじめに
 .play example/sample1.go
+
+* Thank you
+.html example/thanks.html
