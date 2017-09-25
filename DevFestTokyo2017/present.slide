@@ -16,18 +16,7 @@ https://github.com/mom0tomo/
 
 
 * Who?
-*micchie*
-
-- ディップ株式会社 雑用
-- 脳筋戦士
-.image image/micchie.png 100 _
-
-*mom0tomo*
-
-- ディップ株式会社 エンジニア
-- 村人 -> 修行僧 -> 武闘家
-.image image/mom0tomo.png 100 _
-
+.html example/profile.html
 
 * アジェンダ
 
@@ -65,3 +54,6 @@ _身近に目標とする人を見つけにくい._
 
 * 初心者が読むとよいもの
 .link https://qiita.com/tenntenn/items/0e33a4959250d1a55045 Go言語の初心者が見ると幸せになれる場所 |  _written_ _by_ _@tenntenn_
+
+* Thank you
+.html example/thanks.html
