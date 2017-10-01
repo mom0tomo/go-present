@@ -13,7 +13,7 @@ https://github.com/mom0tomo/
 
 
 * Who?
-.html example/profile.html
+.html partials/profile.html
 
 * アジェンダ
 *1.* はじめてのプログラミングGo
@@ -86,4 +86,4 @@ https://github.com/mom0tomo/
 .link https://qiita.com/tenntenn/items/0e33a4959250d1a55045 Go言語の初心者が見ると幸せになれる場所 |  _written_ _by_ _@tenntenn_
 
 * Thank you
-.html example/thanks.html
+.html partials/thanks.html
