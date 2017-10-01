@@ -129,6 +129,10 @@ https://github.com/mom0tomo/
 - ソースコードを自動生成するやつをつくってみたい
 	if err !=nilをなんども書かなくていいようにするアレ
 
+* micchieのやっていき
+*Goではじめて向けの教材を作りたい！*
+
+今まで新卒向けの研修素材はPHPで用意したりしていたけれども、Goはかなり良いのではないかと思っている...ので！
 
 * 初心者が読むとよいもの
 .link https://qiita.com/tenntenn/items/0e33a4959250d1a55045 Go言語の初心者が見ると幸せになれる場所 |  _written_ _by_ _@tenntenn_
