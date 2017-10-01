@@ -82,6 +82,13 @@ https://github.com/mom0tomo/
 
 * 3. Goでやっていき宣言
 
+* Goで静的解析をやりたい！
+- なぜやりたいか
+	コンパイラや言語処理系についてGoで学びたい
+
+- 何をやりたいか
+	ソースコードを自動生成するやつをつくってみたい
+
 * 初心者が読むとよいもの
 .link https://qiita.com/tenntenn/items/0e33a4959250d1a55045 Go言語の初心者が見ると幸せになれる場所 |  _written_ _by_ _@tenntenn_
 
