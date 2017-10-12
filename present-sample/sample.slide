@@ -1,0 +1,60 @@
+go presentのご紹介
+サブタイトル
+6 Jul 2017
+Tags: タグ1, タグ2, タグ3
+
+Momo Otomo
+@mom0tomo
+https://github.com/mom0tomo
+
+* 基本的な章立て
+
+* 基本的な章立て
+このように文章を書けます
+
+- 内容１
+- 内容２
+- 内容３
+
+
+* 基本的な章立て
+** サブセクション
+
+
+* 基本的な章立て
+** サブセクション
+*** サブ-サブセクション
+
+* 画像やコードの挿入
+
+* 画像やコードの挿入
+*画像とキャプションの挿入*
+.image image/gopher1.png 340 275 
+.caption _Gopher_ by [[https://twitter.com/tenntenn][Takuya Ueda]]
+
+* 画像やコードの挿入
+*コードの挿入*
+.code example/example.go
+
+* 画像やコードの挿入
+*実行ボタンをつけたコードの挿入*
+.play example/example.go
+
+* 画像やコードの挿入
+*webサイトの埋め込み*
+.iframe https://godoc.org/golang.org/x/tools/present 490 1000
+
+* 画像やコードの挿入
+*リンクの挿入*
+.link http://golang.org golang.org
+
+* 画像やコードの挿入
+.html example/example.html
+
+* 色々な文字表現
+_イタリック_
+*太字*
+*bold*word*
+_italic_font_
+- _italic_font_
+`fmt.Println("ソースコード")`
