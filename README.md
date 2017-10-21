@@ -1,1 +1,8 @@
 # go-present
+
+this repository remains my slides made by go-present.
+Other slides are on [Speaker Deck](https://speakerdeck.com/mom0tomo)
+
+### 2017
+
+- ["Go徒然日記"](http://go-talks.appspot.com/github.com/mom0tomo/go-present/2017/10/DevFestTokyo2017/present.slide) @ [DevFestTokyo2017](https://tokyo.gdgjapan.org/), [Slide](/2017/10/DevFestTokyo2017/present.slide)
