@@ -1,6 +1,6 @@
 # go-present
 
-this repository remains my slides made by go-present.
+My slides made with go-present.
 Other slides are on [Speaker Deck](https://speakerdeck.com/mom0tomo)
 
 ### 2017
