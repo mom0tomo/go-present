@@ -1,4 +1,4 @@
-Goビギナーズ - よくある5つの質問
+Goビギナーズ - よくある3つの質問
 Go bigginers
 21 Oct 2017
 Tags: Go, golangjp
@@ -11,18 +11,13 @@ https://github.com/mom0tomo/
 * About me 🍎
 .image images/profile.png 323 600
 
-* About me
-- 事業会社(人材系)
-- プロダクトはほぼPHP
-- アプリ開発チームがAPIサーバをGoで書くことに！！
-- (いろいろあってわたしはアプリチームじゃない😇 )
 
 * アジェンダ
 1️⃣  GOPATHはどこに設定したらいい？
 2️⃣  エディタは何を使う？
 3️⃣  パッケージ管理とか何を使う？
-4️⃣  Ruby on Railsみたい なフレームワークはありますかは
-5️⃣  Goの何がそんなに好きなんですか
+
+🚺  Goの何がそんなに好きなんですか
 
 
 * 1. GOPATHはどこに設定したらいい？
@@ -83,18 +78,17 @@ https://github.com/mom0tomo/
 - まだ開発途上。今後大きな変更があるかも
 
 
-* 4. Ruby on Railsみたいなフレームワークはありますか
-* 4. Ruby on Railsみたいなフレームワークはありますか
-- Railsみたいなやつはないです
-- SinatraみたいなのだったらBeegoがある(中国ではたくさん使われてる)
-- フレームワーク使わないで標準パッケージで書いた方がいいという話も...
+* 番外: Goの何がそんなに好きなんですか
+* 番外: Goの何がそんなに好きなんですか
+✨  低レイヤーを学べるところ
+「Goならわかるシステムプログラミング」はほんとにおすすめ
 
+✨  答えがあるので戦争が起きにくいところ
+コーディングルール、フォーマット
 
-* 5. Goの何がそんなに好きなんですか
-- 低レイヤーを学べるところ
-- 答えがあるので戦争が起きにくいところ(コーディングルール、フォーマット)
-- Goコミュニティは優しい
-
+✨  Goコミュニティは優しい
+.image images/gopher-dance-long.gif 100 100
+.caption _Gopher_ _gif_ by [[https://github.com/egonelbre/gophers][@egonelbre]]
 
 * Join Us!
 Women Who Go Tokyoでは仲間を募集しています！
