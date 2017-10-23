@@ -1,4 +1,4 @@
-Goビギナーズによく聞かれる5つの質問
+Goビギナーズ - よくある5つの質問
 Go bigginers
 21 Oct 2017
 Tags: Go, golangjp
@@ -12,8 +12,9 @@ https://github.com/mom0tomo/
 .image images/profile.png 323 600
 
 * About me
-- プロダクトコードはほぼPHPの事業会社
-- アプリ開発チームがAPIサーバをGoで書くことに
+- 人材事業会社
+- プロダクトはほぼPHP
+- アプリ開発チームがAPIサーバをGoで書くことに！！
 - (いろいろあってわたしはアプリチームじゃない😇 )
 
 * よくある5つの質問
@@ -25,39 +26,50 @@ https://github.com/mom0tomo/
 
 
 * 1. GOPATHはどこに設定したらいい？
+
 * 1. GOPATHはどこに設定したらいい?
  $ go env
 .image images/momo-tarm.png 466 864
- 
+ $ echo $GOPATH
+.image images
+
+* 1. GOPATHはどこに設定したらいい?
+- Go 1.8からは$HOME/goが最初から設定されている
+- 環境変数として自分で設定しなくても動く！
+ $ go env | grep GOPATH
+ $ echo $GOPATH
+
+- 環境変数としても設定したほうがいい
+
 
 * 2. エディタは何を使う？
 * 2. エディタは何を使う？
 ✏️  Vim
 
 - vim-goが強力
-- 有名Gopehrが使っている
+- 著名なGopehrが使っている
 
 ✏️  GoGland
 
-- GoのためのInteliJ
-- よくアップデートがある
-- Linterが強力
+- GoのためのIDE
+- β版。よくアップデートがある
+- メソッドジャンプが強力
 
-✏️  Visual Studio
+✏️  Visual Studio Code
 
 - Windowsでも楽々
-- プラグインを入れれば簡単にいい感じに動く
-* 2. エディタは何を使う？
-💡  開発エンジニアではいくつかに絞って設定を揃えるといいかも
+- Goプラグインを入れるだけでいい感じに動く
 
-- エディタ特有の問題に対応するのは大変
-- Goのために新しいエディタを使ってみるのも楽しい
-- 保存時に自動import、fmtするようにするのはmust!!
+* 2. エディタは何を使う？
+💡  保存時に自動import、fmtするようにするのはmust!!
+
+- メソッドジャンプ、デバッガー、自動補完を求めるならGoglandかVisual Studio Code
 
 
 * 3. パッケージ管理には何を使う？
-💡  glideが主流だと思います
+💡  いまはglideが主流だと思います
 
+- npm, gemみたいな動き
 - glideを使うときはGOPATHに注意！$GOPATH/src配下にプロジェクトがないと動きません
 - depも個人のプロジェクトならいいかも
 
@@ -68,7 +80,7 @@ https://github.com/mom0tomo/
 - フレームワーク使わないで標準パッケージで書いた方がいいという話も...
 
 
-* 5. Goの何がそんなにいいんですか
+* 5. Goの何がそんなに好きなんですか
 - 低レイヤーを学べるところ
 - 答えがあるので戦争が起きにくいところ(コーディングルール、フォーマット)
 - Goコミュニティは優しい
@@ -78,6 +90,4 @@ https://github.com/mom0tomo/
 Women Who Go Tokyoでは仲間を募集しています！
 .link https://womenwhogo-tokyo.connpass.com/
 .image images/wwgtlogo.png
-
-* See also
 
