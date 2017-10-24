@@ -26,16 +26,17 @@ https://github.com/mom0tomo/
 
 * 1. GOPATHはどこに設定したらいい?
 **
-💡  Go 1.8からは `$HOME/go` が最初から設定されている
+💡  Go 1.8からは `$HOME/go` を使うように最初から設定されている
 
 - 環境変数として自分で設定しなくても動く
 
- $ go env | grep GOPATH
- GOPATH="/Users/momo/go"
+ $ go env GOPATH
+  /Users/momo/go
 
 **
-💡  環境変数としても明示的に設定したほうがわかりやすい
+💡 明示的に設定したほうがわかりやすい
 
+ $ export GOPATH=$HOME/go
  $ echo $GOPATH
  /Users/momo/go
 
