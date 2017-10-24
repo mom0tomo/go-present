@@ -13,6 +13,7 @@ https://github.com/mom0tomo/
 
 
 * よく聞かれる3つの質問
+**
 1️⃣  GOPATHはどこに設定したらいい？
 2️⃣  エディタは何を使う？
 3️⃣  パッケージ管理とか何を使う？
@@ -24,16 +25,19 @@ https://github.com/mom0tomo/
 .image images/momo-term.png 466 864
 
 * 1. GOPATHはどこに設定したらいい?
-- Go 1.8からは$HOME/goが最初から設定されている
-- 環境変数として自分で設定しなくても動く！
+**
+💡  Go 1.8からは `$HOME/go` が最初から設定されている
+
+- 環境変数として自分で設定しなくても動く
+
  $ go env | grep GOPATH
  GOPATH="/Users/momo/go"
- 
-- 環境変数としても明示的に設定したほうがいい
+
+**
+💡  環境変数としても明示的に設定したほうがわかりやすい
+
  $ echo $GOPATH
  /Users/momo/go
-
-- GOPATH/src配下で作業するのが嫌だったらdirenvを使うといい
 
 
 * 2. パッケージ管理には何を使う？
@@ -41,13 +45,17 @@ https://github.com/mom0tomo/
 💡  いまは *glide* が主流だと思います
 
 - npm, gemみたいな動き
-- glideを使うときはGOPATHに注意！$GOPATH/src配下にプロジェクトがないと動きません
+- glideを使うときはGOPATHに注意！ `GOPATH/src` 配下にプロジェクトがないと動きません
 
-
+**
 💡  公式ツール、 *dep*
 
 - Go1.8以降で使える
-- まだ開発途上。今後大きな変更があるかも
+- まだ開発途上。今後大きな変更があるかも　
+
+**
+**
+⚖️  `GOPATH/src` 配下で作業するのが嫌だったら *direnv* を使うといい
 
 
 * 3. エディタは何を使う？
@@ -57,31 +65,34 @@ https://github.com/mom0tomo/
 - vim-goが強力
 - 著名なGopehrが使っている
 
+**
 ✏️  *GoGland*
 
-- GoのためのIDE
-- β版。よくアップデートがある
+- GoのためのIDE。現在EAP(β版)
 - メソッドジャンプが強力
 
+**
 ✏️  *Visual* *Studio* *Code*
 
 - Windowsでも楽々
 - Goプラグインを入れるだけでいい感じに動く
 
 * 3. エディタは何を使う？
-💡  保存時に自動import、fmtするようにするのはmust!!
+**
+💡  保存時に自動で `import` 、`fmt` するようにする設定はMust。
 
 - メソッドジャンプ、デバッガー、自動補完を求めるなら、GoglandかVisual Studio Code
 
 
 * 番外: Goの何がそんなに好きなんですか
 * 番外: Goの何がそんなに好きなんですか
+**
 ✨  低レイヤーを学べるところ
 「Goならわかるシステムプログラミング」はほんとにおすすめ
-
+**
 ✨  答えがあるので戦争が起きにくいところ
 コーディングルール、フォーマット
-
+**
 ✨  Goコミュニティは優しい
 .image images/gopher-dance-long.gif 100 100
 .caption _Gopher_ _gif_ by [[https://github.com/egonelbre/gophers][@egonelbre]]
